@@ -1,0 +1,12 @@
+<h1>I am home component</h1>
+<p>{{hometitle}}</p>
+<ng-content></ng-content>
+<input required="myBool">
+<!-- binding data to value property(ie native to html) -->
+<input [value]="myString"> 
+<!--event binding ,alertme() defined in class
+    function called from view along with a param-->
+<button (click)="alertme('akanksha')">Click here</button>
+<!--2 way binding-->
+
+<p>Hello from {{me.firstName}} {{me.lastName}} </p>
