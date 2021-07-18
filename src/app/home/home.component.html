@@ -10,3 +10,7 @@
 <!--2 way binding-->
 
 <p>Hello from {{me.firstName}} {{me.lastName}} </p>
+<!--custom property binding,person object coming from app component-->
+<p>Welcome home {{person.firstname}} {{person.lastname}}</p>
+<!--custom event binding-->
+<button (click)="fireYellEvent($event)">Leave</button>

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  person={
+    firstname:"jyoti",
+    lastname:"nalawade"
+  };
+  yell(e: any){
+    alert("participant left");
+  }
 }

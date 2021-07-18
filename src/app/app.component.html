@@ -8,5 +8,5 @@
   </nav>
 </header>
 <section id="main">
-  <app-home>in directive</app-home>
+  <app-home [person]="person" (onYell)="yell($event)">in directive</app-home>
 </section>
